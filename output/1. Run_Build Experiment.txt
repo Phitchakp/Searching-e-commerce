@@ -1,0 +1,53 @@
+PS C:\Ascencia\8. Thesis\Searching-e-commerce> py "Build Experiment.py" 
+[STEP 1] Downloading raw Amazon Electronics data...
+  Downloaded -> electronics_raw.csv
+  Rows: 1,292,954
+  Columns: ['item_id', 'user_id', 'rating', 'timestamp', 'model_attr', 'category', 'brand', 'year', 'user_attr', 'split']
+  Unique items: 9,560
+  Unique users: 1,157,633
+
+[STEP 2] Cleaning and validating...
+  Rows before: 1,292,954  ->  after: 1,292,954
+  Removed 0 invalid rows
+
+[STEP 3] Aggregating to product level (groupby item_id)...
+  Unique products: 9,560
+  Categories: 10
+
+[STEP 4] Building product catalogue...
+  Products in catalogue: 9,560
+  Categories: 10
+  Saved product_catalogue.csv
+  Saved category_analysis.csv
+
+[STEP 5] Building search systems...
+  5a. NLP semantic search (TF-IDF)...
+      TF-IDF matrix: (9560, 9611)
+  5b. LightGBM ranking model...
+      LightGBM validation AUC: 1.0000
+  5c. BM25 keyword baseline...
+
+[STEP 6] Running search experiment...
+  Generated 360 rows (30 participants x 6 tasks x 2 conditions)
+
+[STEP 7] Saving outputs...
+  Saved experiment_results.csv  (360 rows x 22 cols)
+
+============================================================
+  PIPELINE COMPLETE
+============================================================
+  Outputs:
+    product_catalogue.csv   (9,560 products)
+    category_analysis.csv   (10 categories)
+    experiment_results.csv  (360 rows)
+
+  Preview of experiment_results.csv:
+participant_id condition  task_id task_type  task_time_s  mean_relevance
+           P01        AI        1  specific        24.51           2.686
+           P01   Keyword        1  specific        59.67           3.673
+           P01        AI        2  specific        41.13           3.242
+           P01   Keyword        2  specific        50.83           3.863
+           P01        AI        3     vague        40.17           2.566
+           P01   Keyword        3     vague        48.49           3.166
+           P01        AI        4     vague        16.00           3.007
+           P01   Keyword        4     vague        77.44           2.968

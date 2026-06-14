@@ -171,6 +171,8 @@ print(f"\n  ✓ Participant arrays built (N={N})")
 
 agg.to_csv(f"{OUT}/A_participant_aggregated.csv", index=False)
 
+
+'''
 # ══════════════════════════════════════════════════════════════════════════
 # B. DESCRIPTIVE STATISTICS
 # ══════════════════════════════════════════════════════════════════════════
@@ -1016,3 +1018,4 @@ for o in outputs:
     size = os.path.getsize(f"{OUT}/{o}")
     print(f"  {o:50s}  {size:>8,} bytes")
 print(f"\n  Total: {len(outputs)} files")
+'''

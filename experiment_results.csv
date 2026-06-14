@@ -1,0 +1,361 @@
+participant_id,condition,task_id,task_type,query,task_time_s,mean_relevance,result_1_rating,result_2_rating,result_3_rating,result_4_rating,result_5_rating,sus_1,sus_2,sus_3,sus_4,sus_5,sus_6,sus_7,sus_8,sus_9,sus_10
+P01,AI,1,specific,noise cancelling wireless headphones under 50,24.51,2.686,2.3,2.6,3.6,2.6,2.2,4,3,3,1,5,2,5,2,4,2
+P01,Keyword,1,specific,noise cancelling wireless headphones under 50,59.67,3.673,3.2,3.9,3.6,3.2,4.4,2,2,4,4,3,2,3,2,4,3
+P01,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,41.13,3.242,3.8,4.0,2.7,2.1,3.5,4,3,3,1,5,2,5,2,4,2
+P01,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,50.83,3.863,4.2,4.0,3.2,4.3,3.6,2,2,4,4,3,2,3,2,4,3
+P01,AI,3,vague,something good for listening to music on commute,40.17,2.566,3.8,3.2,1.8,1.8,2.3,4,3,3,1,5,2,5,2,4,2
+P01,Keyword,3,vague,something good for listening to music on commute,48.49,3.166,3.0,2.8,3.7,3.1,3.2,2,2,4,4,3,2,3,2,4,3
+P01,AI,4,vague,comfortable accessories for working from home laptop,16.0,3.007,3.0,3.3,3.3,3.3,2.1,4,3,3,1,5,2,5,2,4,2
+P01,Keyword,4,vague,comfortable accessories for working from home laptop,77.44,2.968,2.8,2.9,3.5,2.7,2.9,2,2,4,4,3,2,3,2,4,3
+P01,AI,5,browse,popular laptops computers for university students,32.68,2.923,3.1,3.4,3.1,3.3,1.7,4,3,3,1,5,2,5,2,4,2
+P01,Keyword,5,browse,popular laptops computers for university students,65.53,2.504,3.4,1.7,2.8,2.7,1.9,2,2,4,4,3,2,3,2,4,3
+P01,AI,6,browse,best reviewed cameras for beginners photography,35.82,3.427,3.9,2.3,2.7,4.0,4.3,4,3,3,1,5,2,5,2,4,2
+P01,Keyword,6,browse,best reviewed cameras for beginners photography,61.25,3.171,3.1,3.2,4.0,2.8,2.8,2,2,4,4,3,2,3,2,4,3
+P02,AI,1,specific,noise cancelling wireless headphones under 50,31.37,2.749,2.4,2.8,4.0,2.4,2.2,4,2,5,2,3,3,3,1,5,2
+P02,Keyword,1,specific,noise cancelling wireless headphones under 50,48.67,3.802,3.9,3.9,4.1,3.0,4.1,3,4,4,3,4,1,4,2,4,3
+P02,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,28.43,2.968,3.6,3.6,2.5,1.5,3.6,4,2,5,2,3,3,3,1,5,2
+P02,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,62.38,4.021,4.2,3.7,3.4,4.6,4.2,3,4,4,3,4,1,4,2,4,3
+P02,AI,3,vague,something good for listening to music on commute,32.93,2.604,3.4,3.4,2.1,1.9,2.2,4,2,5,2,3,3,3,1,5,2
+P02,Keyword,3,vague,something good for listening to music on commute,39.68,3.494,3.5,2.9,3.7,3.8,3.5,3,4,4,3,4,1,4,2,4,3
+P02,AI,4,vague,comfortable accessories for working from home laptop,46.45,3.102,3.3,3.6,3.6,3.1,1.9,4,2,5,2,3,3,3,1,5,2
+P02,Keyword,4,vague,comfortable accessories for working from home laptop,46.59,2.991,2.8,2.9,3.5,3.1,2.6,3,4,4,3,4,1,4,2,4,3
+P02,AI,5,browse,popular laptops computers for university students,46.68,3.073,3.5,3.0,3.2,3.5,2.1,4,2,5,2,3,3,3,1,5,2
+P02,Keyword,5,browse,popular laptops computers for university students,80.13,2.197,2.3,1.8,2.3,2.2,2.3,3,4,4,3,4,1,4,2,4,3
+P02,AI,6,browse,best reviewed cameras for beginners photography,23.84,3.223,3.7,2.5,2.8,3.5,3.6,4,2,5,2,3,3,3,1,5,2
+P02,Keyword,6,browse,best reviewed cameras for beginners photography,60.03,3.545,3.5,3.4,4.0,3.5,3.3,3,4,4,3,4,1,4,2,4,3
+P03,AI,1,specific,noise cancelling wireless headphones under 50,25.26,2.733,2.6,2.6,3.5,2.8,2.1,4,1,5,2,4,2,5,2,4,2
+P03,Keyword,1,specific,noise cancelling wireless headphones under 50,51.65,4.061,4.3,4.2,3.5,3.8,4.5,3,2,4,3,4,4,3,3,4,2
+P03,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,33.47,3.396,4.4,3.3,2.7,2.6,3.9,4,1,5,2,4,2,5,2,4,2
+P03,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,40.28,4.057,4.0,4.1,3.7,4.3,4.2,3,2,4,3,4,4,3,3,4,2
+P03,AI,3,vague,something good for listening to music on commute,60.16,2.584,3.4,3.1,2.0,2.2,2.1,4,1,5,2,4,2,5,2,4,2
+P03,Keyword,3,vague,something good for listening to music on commute,72.66,3.189,3.1,3.0,3.6,3.2,3.1,3,2,4,3,4,4,3,3,4,2
+P03,AI,4,vague,comfortable accessories for working from home laptop,48.15,2.996,3.3,3.3,3.2,3.2,2.1,4,1,5,2,4,2,5,2,4,2
+P03,Keyword,4,vague,comfortable accessories for working from home laptop,49.16,2.74,2.6,2.9,3.1,2.5,2.6,3,2,4,3,4,4,3,3,4,2
+P03,AI,5,browse,popular laptops computers for university students,57.23,3.017,3.3,3.3,3.3,3.3,2.0,4,1,5,2,4,2,5,2,4,2
+P03,Keyword,5,browse,popular laptops computers for university students,54.42,2.323,3.1,1.0,2.6,2.5,2.4,3,2,4,3,4,4,3,3,4,2
+P03,AI,6,browse,best reviewed cameras for beginners photography,42.34,3.19,3.7,2.5,2.3,3.6,3.8,4,1,5,2,4,2,5,2,4,2
+P03,Keyword,6,browse,best reviewed cameras for beginners photography,76.32,3.563,3.6,3.6,3.3,3.5,3.7,3,2,4,3,4,4,3,3,4,2
+P04,AI,1,specific,noise cancelling wireless headphones under 50,32.69,2.736,2.4,2.6,3.6,2.2,2.8,4,2,4,1,4,2,5,2,4,1
+P04,Keyword,1,specific,noise cancelling wireless headphones under 50,41.81,3.726,4.0,4.1,3.5,3.4,3.6,4,3,3,3,3,3,4,3,4,4
+P04,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,30.18,3.17,3.2,3.8,3.0,2.3,3.4,4,2,4,1,4,2,5,2,4,1
+P04,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,60.34,3.828,3.9,3.6,3.7,4.3,3.5,4,3,3,3,3,3,4,3,4,4
+P04,AI,3,vague,something good for listening to music on commute,34.99,2.964,3.8,3.7,2.8,1.8,2.7,4,2,4,1,4,2,5,2,4,1
+P04,Keyword,3,vague,something good for listening to music on commute,54.9,3.097,2.9,3.1,3.3,3.5,2.7,4,3,3,3,3,3,4,3,4,4
+P04,AI,4,vague,comfortable accessories for working from home laptop,23.93,3.216,3.5,3.4,3.4,3.4,2.3,4,2,4,1,4,2,5,2,4,1
+P04,Keyword,4,vague,comfortable accessories for working from home laptop,44.84,3.03,3.2,3.0,3.1,3.4,2.5,4,3,3,3,3,3,4,3,4,4
+P04,AI,5,browse,popular laptops computers for university students,35.14,2.941,3.0,3.2,3.6,3.4,1.6,4,2,4,1,4,2,5,2,4,1
+P04,Keyword,5,browse,popular laptops computers for university students,59.0,2.13,2.1,1.1,2.5,2.2,2.7,4,3,3,3,3,3,4,3,4,4
+P04,AI,6,browse,best reviewed cameras for beginners photography,45.65,3.337,3.7,2.4,2.6,4.0,4.0,4,2,4,1,4,2,5,2,4,1
+P04,Keyword,6,browse,best reviewed cameras for beginners photography,53.6,3.404,3.3,3.5,3.4,3.4,3.3,4,3,3,3,3,3,4,3,4,4
+P05,AI,1,specific,noise cancelling wireless headphones under 50,38.34,2.643,2.9,2.6,3.3,2.3,2.1,4,2,5,3,3,3,4,2,4,2
+P05,Keyword,1,specific,noise cancelling wireless headphones under 50,52.1,4.016,4.1,3.6,4.2,3.9,4.3,3,2,4,4,3,4,3,4,1,5
+P05,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,50.75,3.204,3.5,3.9,2.5,2.0,4.0,4,2,5,3,3,3,4,2,4,2
+P05,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,70.83,3.967,4.0,4.7,3.5,4.0,3.7,3,2,4,4,3,4,3,4,1,5
+P05,AI,3,vague,something good for listening to music on commute,34.77,2.601,3.3,3.5,2.0,1.9,2.3,4,2,5,3,3,3,4,2,4,2
+P05,Keyword,3,vague,something good for listening to music on commute,51.36,3.358,2.9,3.3,4.0,3.6,2.9,3,2,4,4,3,4,3,4,1,5
+P05,AI,4,vague,comfortable accessories for working from home laptop,23.42,3.093,3.3,3.5,3.2,3.5,2.1,4,2,5,3,3,3,4,2,4,2
+P05,Keyword,4,vague,comfortable accessories for working from home laptop,47.07,3.047,2.7,2.9,3.0,3.7,2.9,3,2,4,4,3,4,3,4,1,5
+P05,AI,5,browse,popular laptops computers for university students,39.76,3.144,3.5,3.2,3.4,3.5,2.1,4,2,5,3,3,3,4,2,4,2
+P05,Keyword,5,browse,popular laptops computers for university students,48.31,2.556,3.1,1.8,2.2,3.3,2.5,3,2,4,4,3,4,3,4,1,5
+P05,AI,6,browse,best reviewed cameras for beginners photography,47.15,3.396,4.0,2.9,2.4,3.7,3.9,4,2,5,3,3,3,4,2,4,2
+P05,Keyword,6,browse,best reviewed cameras for beginners photography,74.43,3.622,3.8,3.5,3.5,3.9,3.3,3,2,4,4,3,4,3,4,1,5
+P06,AI,1,specific,noise cancelling wireless headphones under 50,49.89,2.857,2.5,3.0,4.1,2.5,2.3,4,2,4,2,4,3,4,1,5,2
+P06,Keyword,1,specific,noise cancelling wireless headphones under 50,49.89,3.801,3.4,3.5,3.8,4.4,3.9,1,3,1,2,1,3,2,3,1,3
+P06,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,29.7,3.264,3.5,3.9,2.8,2.5,3.6,4,2,4,2,4,3,4,1,5,2
+P06,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,46.37,3.641,3.6,4.0,3.1,3.7,3.7,1,3,1,2,1,3,2,3,1,3
+P06,AI,3,vague,something good for listening to music on commute,29.57,2.598,3.3,3.4,2.1,1.9,2.2,4,2,4,2,4,3,4,1,5,2
+P06,Keyword,3,vague,something good for listening to music on commute,59.17,3.138,3.1,3.0,3.0,3.7,2.9,1,3,1,2,1,3,2,3,1,3
+P06,AI,4,vague,comfortable accessories for working from home laptop,43.73,3.202,3.5,3.6,3.4,3.3,2.2,4,2,4,2,4,3,4,1,5,2
+P06,Keyword,4,vague,comfortable accessories for working from home laptop,72.77,2.789,2.8,2.8,2.4,3.1,2.8,1,3,1,2,1,3,2,3,1,3
+P06,AI,5,browse,popular laptops computers for university students,47.78,3.127,3.5,3.6,3.1,3.6,1.7,4,2,4,2,4,3,4,1,5,2
+P06,Keyword,5,browse,popular laptops computers for university students,52.71,2.082,2.1,1.5,1.8,2.5,2.5,1,3,1,2,1,3,2,3,1,3
+P06,AI,6,browse,best reviewed cameras for beginners photography,66.37,3.229,3.5,2.6,2.4,3.7,3.9,4,2,4,2,4,3,4,1,5,2
+P06,Keyword,6,browse,best reviewed cameras for beginners photography,50.49,3.455,3.8,3.7,3.6,3.5,2.7,1,3,1,2,1,3,2,3,1,3
+P07,AI,1,specific,noise cancelling wireless headphones under 50,27.9,2.808,2.7,2.6,3.7,2.5,2.6,4,1,3,1,4,2,5,2,4,1
+P07,Keyword,1,specific,noise cancelling wireless headphones under 50,73.07,3.909,3.9,4.0,3.7,3.8,4.1,1,2,2,3,2,3,3,3,4,2
+P07,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,37.6,3.079,3.5,3.7,2.4,2.4,3.4,4,1,3,1,4,2,5,2,4,1
+P07,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,51.71,3.75,3.9,3.7,3.0,3.9,4.2,1,2,2,3,2,3,3,3,4,2
+P07,AI,3,vague,something good for listening to music on commute,33.37,2.711,3.6,3.7,2.2,1.9,2.2,4,1,3,1,4,2,5,2,4,1
+P07,Keyword,3,vague,something good for listening to music on commute,44.53,3.127,2.9,2.5,3.8,3.3,3.2,1,2,2,3,2,3,3,3,4,2
+P07,AI,4,vague,comfortable accessories for working from home laptop,37.81,3.136,3.3,3.3,3.3,3.5,2.2,4,1,3,1,4,2,5,2,4,1
+P07,Keyword,4,vague,comfortable accessories for working from home laptop,56.52,3.196,2.5,4.0,3.6,3.3,2.6,1,2,2,3,2,3,3,3,4,2
+P07,AI,5,browse,popular laptops computers for university students,51.21,3.044,3.3,3.6,3.3,3.2,1.8,4,1,3,1,4,2,5,2,4,1
+P07,Keyword,5,browse,popular laptops computers for university students,64.16,2.301,3.1,2.0,2.7,2.5,1.3,1,2,2,3,2,3,3,3,4,2
+P07,AI,6,browse,best reviewed cameras for beginners photography,46.32,3.237,3.7,2.5,2.5,3.5,4.0,4,1,3,1,4,2,5,2,4,1
+P07,Keyword,6,browse,best reviewed cameras for beginners photography,61.28,3.534,3.6,3.7,3.7,3.3,3.4,1,2,2,3,2,3,3,3,4,2
+P08,AI,1,specific,noise cancelling wireless headphones under 50,25.0,2.681,2.5,2.7,4.1,1.8,2.4,4,2,5,3,5,2,2,3,4,1
+P08,Keyword,1,specific,noise cancelling wireless headphones under 50,46.48,3.943,3.4,4.2,4.0,3.8,4.3,3,3,4,2,2,3,4,4,2,2
+P08,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,21.14,3.335,3.7,4.2,2.5,2.5,3.7,4,2,5,3,5,2,2,3,4,1
+P08,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,40.65,3.899,3.4,3.8,3.8,4.3,4.2,3,3,4,2,2,3,4,4,2,2
+P08,AI,3,vague,something good for listening to music on commute,49.38,2.633,3.8,3.1,2.2,2.0,2.1,4,2,5,3,5,2,2,3,4,1
+P08,Keyword,3,vague,something good for listening to music on commute,66.79,3.27,2.8,2.5,3.5,3.3,4.2,3,3,4,2,2,3,4,4,2,2
+P08,AI,4,vague,comfortable accessories for working from home laptop,50.13,2.896,3.1,3.2,3.0,3.1,2.1,4,2,5,3,5,2,2,3,4,1
+P08,Keyword,4,vague,comfortable accessories for working from home laptop,80.34,3.057,3.4,3.1,2.9,3.2,2.7,3,3,4,2,2,3,4,4,2,2
+P08,AI,5,browse,popular laptops computers for university students,29.32,2.975,3.4,3.3,2.8,3.4,2.0,4,2,5,3,5,2,2,3,4,1
+P08,Keyword,5,browse,popular laptops computers for university students,54.56,2.218,2.3,1.7,1.9,2.9,2.2,3,3,4,2,2,3,4,4,2,2
+P08,AI,6,browse,best reviewed cameras for beginners photography,51.36,3.334,3.4,2.5,3.0,4.0,3.7,4,2,5,3,5,2,2,3,4,1
+P08,Keyword,6,browse,best reviewed cameras for beginners photography,73.22,3.288,3.3,3.8,3.7,2.5,3.1,3,3,4,2,2,3,4,4,2,2
+P09,AI,1,specific,noise cancelling wireless headphones under 50,55.24,2.669,2.3,3.0,3.6,2.2,2.2,4,1,4,1,4,3,5,3,5,2
+P09,Keyword,1,specific,noise cancelling wireless headphones under 50,61.67,3.918,4.0,3.7,4.1,3.9,3.9,5,3,3,4,4,3,2,3,4,4
+P09,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,47.31,3.111,3.7,3.6,2.1,2.0,4.1,4,1,4,1,4,3,5,3,5,2
+P09,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,50.56,3.978,4.1,4.5,3.4,4.0,3.9,5,3,3,4,4,3,2,3,4,4
+P09,AI,3,vague,something good for listening to music on commute,41.3,2.727,3.4,3.6,2.2,2.1,2.3,4,1,4,1,4,3,5,3,5,2
+P09,Keyword,3,vague,something good for listening to music on commute,57.79,3.066,2.7,2.5,3.6,3.3,3.2,5,3,3,4,4,3,2,3,4,4
+P09,AI,4,vague,comfortable accessories for working from home laptop,40.69,3.049,3.8,3.1,2.9,3.4,2.0,4,1,4,1,4,3,5,3,5,2
+P09,Keyword,4,vague,comfortable accessories for working from home laptop,68.02,3.022,3.2,3.5,2.5,2.9,3.0,5,3,3,4,4,3,2,3,4,4
+P09,AI,5,browse,popular laptops computers for university students,34.07,3.128,3.9,3.5,3.3,3.2,1.7,4,1,4,1,4,3,5,3,5,2
+P09,Keyword,5,browse,popular laptops computers for university students,64.92,2.278,2.8,1.6,2.0,2.5,2.6,5,3,3,4,4,3,2,3,4,4
+P09,AI,6,browse,best reviewed cameras for beginners photography,30.84,3.37,3.8,2.5,2.8,3.9,3.8,4,1,4,1,4,3,5,3,5,2
+P09,Keyword,6,browse,best reviewed cameras for beginners photography,47.0,3.169,3.5,2.6,3.4,3.4,3.0,5,3,3,4,4,3,2,3,4,4
+P10,AI,1,specific,noise cancelling wireless headphones under 50,33.73,2.844,2.7,2.6,3.8,2.5,2.5,5,2,4,2,4,3,4,1,5,2
+P10,Keyword,1,specific,noise cancelling wireless headphones under 50,51.53,3.782,4.4,3.2,4.5,3.1,3.8,2,2,3,3,4,3,2,4,4,3
+P10,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,37.21,3.214,3.8,3.9,2.3,2.4,3.6,5,2,4,2,4,3,4,1,5,2
+P10,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,62.85,3.842,4.0,4.0,3.3,3.9,4.0,2,2,3,3,4,3,2,4,4,3
+P10,AI,3,vague,something good for listening to music on commute,30.3,2.6,3.3,3.1,2.3,2.0,2.3,5,2,4,2,4,3,4,1,5,2
+P10,Keyword,3,vague,something good for listening to music on commute,67.63,2.967,2.5,2.8,3.3,3.4,2.9,2,2,3,3,4,3,2,4,4,3
+P10,AI,4,vague,comfortable accessories for working from home laptop,42.34,3.092,3.2,3.5,3.4,3.4,2.0,5,2,4,2,4,3,4,1,5,2
+P10,Keyword,4,vague,comfortable accessories for working from home laptop,46.93,2.959,2.8,3.5,2.9,2.7,2.9,2,2,3,3,4,3,2,4,4,3
+P10,AI,5,browse,popular laptops computers for university students,44.54,3.086,3.6,3.8,3.1,3.5,1.5,5,2,4,2,4,3,4,1,5,2
+P10,Keyword,5,browse,popular laptops computers for university students,60.33,2.22,2.3,1.3,2.1,2.8,2.7,2,2,3,3,4,3,2,4,4,3
+P10,AI,6,browse,best reviewed cameras for beginners photography,28.95,3.187,3.5,2.8,2.3,3.4,4.0,5,2,4,2,4,3,4,1,5,2
+P10,Keyword,6,browse,best reviewed cameras for beginners photography,52.08,3.511,3.7,3.2,3.7,3.9,3.0,2,2,3,3,4,3,2,4,4,3
+P11,AI,1,specific,noise cancelling wireless headphones under 50,40.56,2.667,2.9,2.4,3.7,2.2,2.2,4,3,4,2,5,1,4,1,5,1
+P11,Keyword,1,specific,noise cancelling wireless headphones under 50,46.81,4.09,4.1,4.3,3.3,4.0,4.8,3,3,5,2,5,4,3,2,3,2
+P11,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,28.71,3.28,4.3,3.7,2.3,2.2,4.0,4,3,4,2,5,1,4,1,5,1
+P11,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,57.52,3.942,3.9,4.2,3.5,4.3,4.0,3,3,5,2,5,4,3,2,3,2
+P11,AI,3,vague,something good for listening to music on commute,47.6,2.582,3.4,3.4,1.9,2.3,2.0,4,3,4,2,5,1,4,1,5,1
+P11,Keyword,3,vague,something good for listening to music on commute,44.28,3.0,3.0,3.0,3.4,3.1,2.6,3,3,5,2,5,4,3,2,3,2
+P11,AI,4,vague,comfortable accessories for working from home laptop,25.74,3.064,3.2,3.5,3.6,3.2,1.8,4,3,4,2,5,1,4,1,5,1
+P11,Keyword,4,vague,comfortable accessories for working from home laptop,80.07,3.294,3.2,3.5,3.4,3.3,3.1,3,3,5,2,5,4,3,2,3,2
+P11,AI,5,browse,popular laptops computers for university students,39.91,2.995,3.5,3.4,3.2,3.1,1.7,4,3,4,2,5,1,4,1,5,1
+P11,Keyword,5,browse,popular laptops computers for university students,55.64,2.456,2.6,2.1,2.4,3.0,2.2,3,3,5,2,5,4,3,2,3,2
+P11,AI,6,browse,best reviewed cameras for beginners photography,41.81,3.237,3.4,2.3,2.6,3.8,4.1,4,3,4,2,5,1,4,1,5,1
+P11,Keyword,6,browse,best reviewed cameras for beginners photography,69.93,3.579,3.3,4.0,3.5,3.8,3.3,3,3,5,2,5,4,3,2,3,2
+P12,AI,1,specific,noise cancelling wireless headphones under 50,18.94,2.779,2.2,2.8,3.7,2.4,2.8,5,2,3,2,5,2,4,1,4,2
+P12,Keyword,1,specific,noise cancelling wireless headphones under 50,53.56,3.918,3.7,3.9,4.3,3.1,4.6,3,4,3,4,3,2,1,4,3,3
+P12,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,37.59,3.203,3.8,3.7,2.5,2.5,3.5,5,2,3,2,5,2,4,1,4,2
+P12,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,65.08,4.048,3.9,3.7,4.3,4.2,4.1,3,4,3,4,3,2,1,4,3,3
+P12,AI,3,vague,something good for listening to music on commute,42.94,2.453,3.2,3.7,1.6,1.8,2.0,5,2,3,2,5,2,4,1,4,2
+P12,Keyword,3,vague,something good for listening to music on commute,67.44,3.054,3.1,2.9,3.5,3.1,2.7,3,4,3,4,3,2,1,4,3,3
+P12,AI,4,vague,comfortable accessories for working from home laptop,48.12,3.167,3.4,3.8,3.2,3.5,2.0,5,2,3,2,5,2,4,1,4,2
+P12,Keyword,4,vague,comfortable accessories for working from home laptop,49.1,3.168,3.4,3.1,2.9,3.4,3.1,3,4,3,4,3,2,1,4,3,3
+P12,AI,5,browse,popular laptops computers for university students,28.32,3.053,3.1,3.2,3.6,3.6,1.6,5,2,3,2,5,2,4,1,4,2
+P12,Keyword,5,browse,popular laptops computers for university students,49.21,2.382,2.9,1.1,2.6,2.4,2.9,3,4,3,4,3,2,1,4,3,3
+P12,AI,6,browse,best reviewed cameras for beginners photography,37.79,3.149,3.9,2.5,2.5,3.4,3.4,5,2,3,2,5,2,4,1,4,2
+P12,Keyword,6,browse,best reviewed cameras for beginners photography,58.07,3.368,3.5,3.0,3.1,3.6,3.6,3,4,3,4,3,2,1,4,3,3
+P13,AI,1,specific,noise cancelling wireless headphones under 50,22.96,2.799,2.5,2.8,3.8,2.4,2.5,5,1,4,3,4,2,5,1,5,3
+P13,Keyword,1,specific,noise cancelling wireless headphones under 50,55.76,3.8,3.6,4.0,3.3,3.9,4.3,3,4,2,3,3,4,4,5,3,4
+P13,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,36.51,3.366,3.6,4.0,3.0,2.3,3.9,5,1,4,3,4,2,5,1,5,3
+P13,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,35.9,4.122,4.2,3.9,3.4,4.4,4.6,3,4,2,3,3,4,4,5,3,4
+P13,AI,3,vague,something good for listening to music on commute,43.42,2.527,3.4,3.1,2.5,1.9,1.8,5,1,4,3,4,2,5,1,5,3
+P13,Keyword,3,vague,something good for listening to music on commute,46.64,3.494,3.6,3.2,3.6,3.5,3.6,3,4,2,3,3,4,4,5,3,4
+P13,AI,4,vague,comfortable accessories for working from home laptop,42.82,3.041,3.2,3.3,3.1,3.3,2.3,5,1,4,3,4,2,5,1,5,3
+P13,Keyword,4,vague,comfortable accessories for working from home laptop,60.5,3.021,3.3,3.1,3.2,2.8,2.8,3,4,2,3,3,4,4,5,3,4
+P13,AI,5,browse,popular laptops computers for university students,49.07,3.199,3.5,3.4,3.3,3.3,2.6,5,1,4,3,4,2,5,1,5,3
+P13,Keyword,5,browse,popular laptops computers for university students,33.67,2.269,2.7,1.4,2.3,2.5,2.5,3,4,2,3,3,4,4,5,3,4
+P13,AI,6,browse,best reviewed cameras for beginners photography,25.18,3.229,3.3,2.3,2.5,3.8,4.2,5,1,4,3,4,2,5,1,5,3
+P13,Keyword,6,browse,best reviewed cameras for beginners photography,50.29,3.667,3.2,3.8,3.5,3.7,4.1,3,4,2,3,3,4,4,5,3,4
+P14,AI,1,specific,noise cancelling wireless headphones under 50,46.76,2.8,2.8,2.7,3.8,2.5,2.3,4,2,3,2,5,2,5,2,4,3
+P14,Keyword,1,specific,noise cancelling wireless headphones under 50,65.14,3.838,3.7,4.1,4.3,3.2,3.9,3,3,3,5,4,2,2,4,3,3
+P14,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,26.27,3.342,4.1,3.7,2.4,2.5,4.0,4,2,3,2,5,2,5,2,4,3
+P14,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,43.83,3.892,3.7,4.0,3.7,4.0,4.1,3,3,3,5,4,2,2,4,3,3
+P14,AI,3,vague,something good for listening to music on commute,22.57,2.431,3.0,3.2,2.1,1.9,1.9,4,2,3,2,5,2,5,2,4,3
+P14,Keyword,3,vague,something good for listening to music on commute,43.0,3.339,2.9,3.2,3.9,3.8,2.9,3,3,3,5,4,2,2,4,3,3
+P14,AI,4,vague,comfortable accessories for working from home laptop,37.75,3.024,3.3,3.6,3.5,2.9,1.8,4,2,3,2,5,2,5,2,4,3
+P14,Keyword,4,vague,comfortable accessories for working from home laptop,66.91,3.124,3.2,3.3,3.1,3.2,2.9,3,3,3,5,4,2,2,4,3,3
+P14,AI,5,browse,popular laptops computers for university students,42.67,3.086,3.5,3.3,3.2,3.4,2.0,4,2,3,2,5,2,5,2,4,3
+P14,Keyword,5,browse,popular laptops computers for university students,40.87,2.419,2.7,1.9,2.5,2.4,2.6,3,3,3,5,4,2,2,4,3,3
+P14,AI,6,browse,best reviewed cameras for beginners photography,33.94,3.181,3.4,2.5,2.6,3.6,3.8,4,2,3,2,5,2,5,2,4,3
+P14,Keyword,6,browse,best reviewed cameras for beginners photography,41.1,3.46,3.3,3.7,3.7,3.4,3.3,3,3,3,5,4,2,2,4,3,3
+P15,AI,1,specific,noise cancelling wireless headphones under 50,22.57,2.577,2.2,2.2,3.8,2.3,2.3,5,2,4,2,4,2,4,1,4,2
+P15,Keyword,1,specific,noise cancelling wireless headphones under 50,36.29,3.942,4.1,4.3,3.9,3.4,4.0,3,4,5,3,1,1,3,3,3,3
+P15,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,32.5,3.216,4.1,3.7,2.2,2.2,3.8,5,2,4,2,4,2,4,1,4,2
+P15,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,47.73,3.651,4.0,3.6,3.6,3.9,3.2,3,4,5,3,1,1,3,3,3,3
+P15,AI,3,vague,something good for listening to music on commute,36.91,2.739,3.7,3.2,2.5,2.1,2.2,5,2,4,2,4,2,4,1,4,2
+P15,Keyword,3,vague,something good for listening to music on commute,44.01,3.144,3.0,2.9,3.4,3.5,2.8,3,4,5,3,1,1,3,3,3,3
+P15,AI,4,vague,comfortable accessories for working from home laptop,43.3,3.114,3.0,3.9,3.5,3.4,1.8,5,2,4,2,4,2,4,1,4,2
+P15,Keyword,4,vague,comfortable accessories for working from home laptop,48.05,2.934,3.0,3.1,2.7,3.1,2.7,3,4,5,3,1,1,3,3,3,3
+P15,AI,5,browse,popular laptops computers for university students,31.8,3.037,3.6,3.0,3.4,3.5,1.7,5,2,4,2,4,2,4,1,4,2
+P15,Keyword,5,browse,popular laptops computers for university students,52.89,2.411,2.5,1.6,2.4,2.7,2.9,3,4,5,3,1,1,3,3,3,3
+P15,AI,6,browse,best reviewed cameras for beginners photography,38.76,3.267,3.3,2.6,2.8,3.9,3.7,5,2,4,2,4,2,4,1,4,2
+P15,Keyword,6,browse,best reviewed cameras for beginners photography,61.78,3.221,3.1,3.6,3.1,3.3,3.1,3,4,5,3,1,1,3,3,3,3
+P16,AI,1,specific,noise cancelling wireless headphones under 50,42.88,2.607,2.6,2.4,3.5,2.2,2.3,4,2,4,1,5,2,3,3,5,2
+P16,Keyword,1,specific,noise cancelling wireless headphones under 50,50.4,3.838,3.6,3.8,4.1,3.6,4.1,4,5,3,4,2,3,3,3,3,4
+P16,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,37.22,3.183,3.9,3.7,2.7,2.0,3.7,4,2,4,1,5,2,3,3,5,2
+P16,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,67.28,4.047,4.2,4.4,3.3,4.6,3.7,4,5,3,4,2,3,3,3,3,4
+P16,AI,3,vague,something good for listening to music on commute,36.1,2.637,3.6,3.1,2.2,2.0,2.3,4,2,4,1,5,2,3,3,5,2
+P16,Keyword,3,vague,something good for listening to music on commute,79.67,3.31,3.0,3.4,3.5,3.6,3.1,4,5,3,4,2,3,3,3,3,4
+P16,AI,4,vague,comfortable accessories for working from home laptop,45.58,3.144,3.1,3.3,3.7,3.2,2.4,4,2,4,1,5,2,3,3,5,2
+P16,Keyword,4,vague,comfortable accessories for working from home laptop,78.65,2.961,3.0,2.5,3.0,3.1,3.2,4,5,3,4,2,3,3,3,3,4
+P16,AI,5,browse,popular laptops computers for university students,20.58,3.164,3.3,3.5,3.5,3.6,2.0,4,2,4,1,5,2,3,3,5,2
+P16,Keyword,5,browse,popular laptops computers for university students,76.07,2.262,2.5,1.1,2.3,2.9,2.5,4,5,3,4,2,3,3,3,3,4
+P16,AI,6,browse,best reviewed cameras for beginners photography,30.23,3.107,3.8,2.2,1.9,3.9,3.8,4,2,4,1,5,2,3,3,5,2
+P16,Keyword,6,browse,best reviewed cameras for beginners photography,82.51,3.308,2.9,3.1,3.4,3.6,3.5,4,5,3,4,2,3,3,3,3,4
+P17,AI,1,specific,noise cancelling wireless headphones under 50,34.54,2.642,2.7,2.2,3.7,2.0,2.7,4,2,4,2,4,2,4,1,4,2
+P17,Keyword,1,specific,noise cancelling wireless headphones under 50,48.15,3.86,3.9,4.2,4.0,3.3,4.0,3,2,3,4,3,4,4,3,3,3
+P17,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,43.64,3.051,3.4,3.6,2.5,2.3,3.4,4,2,4,2,4,2,4,1,4,2
+P17,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,47.78,3.89,4.0,4.0,3.6,3.8,4.0,3,2,3,4,3,4,4,3,3,3
+P17,AI,3,vague,something good for listening to music on commute,33.57,2.727,3.3,3.4,2.5,2.1,2.3,4,2,4,2,4,2,4,1,4,2
+P17,Keyword,3,vague,something good for listening to music on commute,42.99,3.412,2.5,3.4,4.2,3.9,3.0,3,2,3,4,3,4,4,3,3,3
+P17,AI,4,vague,comfortable accessories for working from home laptop,40.57,3.022,3.0,3.1,3.4,3.7,2.0,4,2,4,2,4,2,4,1,4,2
+P17,Keyword,4,vague,comfortable accessories for working from home laptop,50.49,3.319,3.5,2.9,3.7,3.7,2.8,3,2,3,4,3,4,4,3,3,3
+P17,AI,5,browse,popular laptops computers for university students,41.56,3.131,3.6,3.2,3.0,3.7,2.1,4,2,4,2,4,2,4,1,4,2
+P17,Keyword,5,browse,popular laptops computers for university students,74.31,2.07,2.1,1.1,2.4,2.4,2.3,3,2,3,4,3,4,4,3,3,3
+P17,AI,6,browse,best reviewed cameras for beginners photography,44.48,3.33,3.8,2.8,2.2,3.8,4.1,4,2,4,2,4,2,4,1,4,2
+P17,Keyword,6,browse,best reviewed cameras for beginners photography,55.47,3.767,3.9,3.5,4.1,3.6,3.8,3,2,3,4,3,4,4,3,3,3
+P18,AI,1,specific,noise cancelling wireless headphones under 50,40.97,2.648,2.2,2.5,3.7,2.5,2.3,4,2,5,2,4,3,3,1,5,2
+P18,Keyword,1,specific,noise cancelling wireless headphones under 50,32.39,3.816,3.9,3.9,3.9,3.5,3.9,4,3,4,2,3,4,4,5,3,3
+P18,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,36.74,3.229,3.8,3.6,2.5,2.4,3.9,4,2,5,2,4,3,3,1,5,2
+P18,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,58.6,3.962,4.4,4.2,3.4,3.9,4.0,4,3,4,2,3,4,4,5,3,3
+P18,AI,3,vague,something good for listening to music on commute,47.08,2.718,3.8,3.6,2.0,2.0,2.3,4,2,5,2,4,3,3,1,5,2
+P18,Keyword,3,vague,something good for listening to music on commute,62.45,3.139,3.4,2.9,3.1,3.1,3.2,4,3,4,2,3,4,4,5,3,3
+P18,AI,4,vague,comfortable accessories for working from home laptop,34.79,3.063,3.0,3.4,3.5,3.1,2.3,4,2,5,2,4,3,3,1,5,2
+P18,Keyword,4,vague,comfortable accessories for working from home laptop,52.95,2.953,3.4,2.9,2.7,2.9,2.8,4,3,4,2,3,4,4,5,3,3
+P18,AI,5,browse,popular laptops computers for university students,43.92,2.976,3.4,3.4,3.2,3.4,1.5,4,2,5,2,4,3,3,1,5,2
+P18,Keyword,5,browse,popular laptops computers for university students,64.85,2.237,2.5,2.0,2.1,2.0,2.6,4,3,4,2,3,4,4,5,3,3
+P18,AI,6,browse,best reviewed cameras for beginners photography,35.42,3.171,3.5,2.1,2.8,4.2,3.3,4,2,5,2,4,3,3,1,5,2
+P18,Keyword,6,browse,best reviewed cameras for beginners photography,36.13,3.376,3.9,3.2,3.3,3.3,3.1,4,3,4,2,3,4,4,5,3,3
+P19,AI,1,specific,noise cancelling wireless headphones under 50,39.9,2.599,2.5,2.5,3.4,2.3,2.4,5,1,4,2,3,1,5,2,4,3
+P19,Keyword,1,specific,noise cancelling wireless headphones under 50,32.78,3.886,3.9,3.9,4.2,3.2,4.2,4,3,2,3,3,3,4,2,2,3
+P19,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,26.7,3.177,3.6,3.4,2.8,2.3,3.7,5,1,4,2,3,1,5,2,4,3
+P19,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,32.73,3.868,4.0,3.7,3.6,3.8,4.3,4,3,2,3,3,3,4,2,2,3
+P19,AI,3,vague,something good for listening to music on commute,33.96,2.574,3.3,3.7,2.0,1.7,2.2,5,1,4,2,3,1,5,2,4,3
+P19,Keyword,3,vague,something good for listening to music on commute,77.42,3.124,2.8,2.6,4.4,3.3,2.5,4,3,2,3,3,3,4,2,2,3
+P19,AI,4,vague,comfortable accessories for working from home laptop,21.63,3.054,3.4,3.3,3.2,3.5,2.0,5,1,4,2,3,1,5,2,4,3
+P19,Keyword,4,vague,comfortable accessories for working from home laptop,71.43,3.208,3.6,2.9,3.5,3.5,2.5,4,3,2,3,3,3,4,2,2,3
+P19,AI,5,browse,popular laptops computers for university students,36.93,2.924,3.3,2.9,3.2,3.5,1.8,5,1,4,2,3,1,5,2,4,3
+P19,Keyword,5,browse,popular laptops computers for university students,24.7,2.36,2.9,1.5,2.1,2.8,2.4,4,3,2,3,3,3,4,2,2,3
+P19,AI,6,browse,best reviewed cameras for beginners photography,43.36,3.309,3.8,2.5,2.5,4.0,3.7,5,1,4,2,3,1,5,2,4,3
+P19,Keyword,6,browse,best reviewed cameras for beginners photography,50.06,3.36,2.9,3.5,4.1,3.1,3.2,4,3,2,3,3,3,4,2,2,3
+P20,AI,1,specific,noise cancelling wireless headphones under 50,22.89,2.625,2.5,2.4,3.7,2.2,2.4,4,1,4,2,5,1,5,3,5,2
+P20,Keyword,1,specific,noise cancelling wireless headphones under 50,58.98,3.827,3.5,4.0,3.6,4.0,4.1,3,4,5,2,4,3,3,2,3,2
+P20,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,33.6,3.32,4.1,3.6,2.5,2.5,3.9,4,1,4,2,5,1,5,3,5,2
+P20,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,52.89,3.909,4.5,3.9,3.5,4.1,3.6,3,4,5,2,4,3,3,2,3,2
+P20,AI,3,vague,something good for listening to music on commute,44.37,2.693,3.8,3.4,2.1,2.0,2.2,4,1,4,2,5,1,5,3,5,2
+P20,Keyword,3,vague,something good for listening to music on commute,60.19,3.215,3.2,2.8,3.6,3.5,2.8,3,4,5,2,4,3,3,2,3,2
+P20,AI,4,vague,comfortable accessories for working from home laptop,40.63,3.054,2.8,3.5,3.5,3.5,1.9,4,1,4,2,5,1,5,3,5,2
+P20,Keyword,4,vague,comfortable accessories for working from home laptop,38.49,3.267,3.5,3.5,3.0,3.1,3.2,3,4,5,2,4,3,3,2,3,2
+P20,AI,5,browse,popular laptops computers for university students,39.5,3.094,3.4,3.6,3.5,3.5,1.5,4,1,4,2,5,1,5,3,5,2
+P20,Keyword,5,browse,popular laptops computers for university students,77.11,2.01,2.4,1.6,2.2,2.3,1.7,3,4,5,2,4,3,3,2,3,2
+P20,AI,6,browse,best reviewed cameras for beginners photography,29.95,3.15,3.6,2.5,2.4,3.6,3.6,4,1,4,2,5,1,5,3,5,2
+P20,Keyword,6,browse,best reviewed cameras for beginners photography,71.32,3.525,3.2,3.5,3.2,4.0,3.8,3,4,5,2,4,3,3,2,3,2
+P21,AI,1,specific,noise cancelling wireless headphones under 50,28.3,2.639,2.6,2.4,3.9,2.2,2.1,4,3,4,2,4,2,5,2,4,2
+P21,Keyword,1,specific,noise cancelling wireless headphones under 50,55.22,4.009,4.5,4.1,3.9,3.6,4.1,4,3,2,3,3,5,2,3,3,4
+P21,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,30.41,3.251,3.9,3.7,2.8,2.3,3.5,4,3,4,2,4,2,5,2,4,2
+P21,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,44.68,3.877,3.4,4.6,3.7,3.8,3.8,4,3,2,3,3,5,2,3,3,4
+P21,AI,3,vague,something good for listening to music on commute,37.12,2.645,3.8,3.0,2.2,2.0,2.3,4,3,4,2,4,2,5,2,4,2
+P21,Keyword,3,vague,something good for listening to music on commute,35.39,3.116,2.5,2.9,3.2,3.4,3.6,4,3,2,3,3,5,2,3,3,4
+P21,AI,4,vague,comfortable accessories for working from home laptop,41.53,3.032,3.1,3.3,3.3,3.5,2.0,4,3,4,2,4,2,5,2,4,2
+P21,Keyword,4,vague,comfortable accessories for working from home laptop,58.68,3.035,2.8,3.1,3.3,2.8,3.1,4,3,2,3,3,5,2,3,3,4
+P21,AI,5,browse,popular laptops computers for university students,42.59,3.104,3.7,3.3,3.4,3.4,1.8,4,3,4,2,4,2,5,2,4,2
+P21,Keyword,5,browse,popular laptops computers for university students,58.68,2.16,2.7,1.1,2.9,2.0,2.1,4,3,2,3,3,5,2,3,3,4
+P21,AI,6,browse,best reviewed cameras for beginners photography,40.32,3.153,3.8,2.8,2.0,3.7,3.4,4,3,4,2,4,2,5,2,4,2
+P21,Keyword,6,browse,best reviewed cameras for beginners photography,53.91,3.653,3.5,3.9,3.5,3.8,3.6,4,3,2,3,3,5,2,3,3,4
+P22,AI,1,specific,noise cancelling wireless headphones under 50,40.45,2.81,2.6,2.4,4.2,2.5,2.4,3,2,3,3,4,3,4,2,4,2
+P22,Keyword,1,specific,noise cancelling wireless headphones under 50,49.13,3.736,3.8,4.2,3.1,3.3,4.3,3,3,2,2,4,4,3,5,3,4
+P22,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,31.96,3.311,3.9,3.4,3.0,2.6,3.7,3,2,3,3,4,3,4,2,4,2
+P22,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,42.58,4.224,4.4,4.6,3.8,4.8,3.6,3,3,2,2,4,4,3,5,3,4
+P22,AI,3,vague,something good for listening to music on commute,48.47,2.607,3.2,3.4,2.2,2.0,2.3,3,2,3,3,4,3,4,2,4,2
+P22,Keyword,3,vague,something good for listening to music on commute,71.24,3.046,2.6,2.8,3.8,3.2,2.9,3,3,2,2,4,4,3,5,3,4
+P22,AI,4,vague,comfortable accessories for working from home laptop,33.16,3.037,3.0,3.4,3.5,3.2,2.2,3,2,3,3,4,3,4,2,4,2
+P22,Keyword,4,vague,comfortable accessories for working from home laptop,31.3,3.14,3.5,3.0,3.2,3.3,2.7,3,3,2,2,4,4,3,5,3,4
+P22,AI,5,browse,popular laptops computers for university students,60.08,3.071,3.5,3.3,3.4,3.3,1.8,3,2,3,3,4,3,4,2,4,2
+P22,Keyword,5,browse,popular laptops computers for university students,48.75,2.15,2.1,1.7,2.2,2.5,2.3,3,3,2,2,4,4,3,5,3,4
+P22,AI,6,browse,best reviewed cameras for beginners photography,45.17,3.331,3.8,2.8,2.6,3.9,3.7,3,2,3,3,4,3,4,2,4,2
+P22,Keyword,6,browse,best reviewed cameras for beginners photography,21.57,3.444,4.1,3.2,3.4,3.2,3.3,3,3,2,2,4,4,3,5,3,4
+P23,AI,1,specific,noise cancelling wireless headphones under 50,32.57,2.693,2.6,2.5,3.5,2.3,2.5,4,1,3,2,3,2,5,1,3,2
+P23,Keyword,1,specific,noise cancelling wireless headphones under 50,69.53,3.848,3.2,4.3,3.9,3.5,4.3,4,2,3,4,1,4,4,3,4,4
+P23,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,39.77,3.097,3.2,3.8,2.3,2.4,3.8,4,1,3,2,3,2,5,1,3,2
+P23,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,38.52,3.8,3.9,3.4,3.3,4.2,4.2,4,2,3,4,1,4,4,3,4,4
+P23,AI,3,vague,something good for listening to music on commute,45.58,2.621,3.7,3.2,2.2,1.9,2.2,4,1,3,2,3,2,5,1,3,2
+P23,Keyword,3,vague,something good for listening to music on commute,84.52,3.198,2.7,2.7,3.6,4.1,2.9,4,2,3,4,1,4,4,3,4,4
+P23,AI,4,vague,comfortable accessories for working from home laptop,26.04,3.121,3.7,3.4,3.3,3.2,2.0,4,1,3,2,3,2,5,1,3,2
+P23,Keyword,4,vague,comfortable accessories for working from home laptop,62.86,2.935,3.0,3.5,2.8,3.0,2.3,4,2,3,4,1,4,4,3,4,4
+P23,AI,5,browse,popular laptops computers for university students,39.71,3.071,3.5,3.3,3.2,3.3,2.0,4,1,3,2,3,2,5,1,3,2
+P23,Keyword,5,browse,popular laptops computers for university students,81.26,2.438,2.6,1.5,2.8,2.8,2.4,4,2,3,4,1,4,4,3,4,4
+P23,AI,6,browse,best reviewed cameras for beginners photography,41.35,3.342,3.8,2.7,2.6,3.4,4.2,4,1,3,2,3,2,5,1,3,2
+P23,Keyword,6,browse,best reviewed cameras for beginners photography,77.84,3.391,3.4,3.4,3.4,3.5,3.2,4,2,3,4,1,4,4,3,4,4
+P24,AI,1,specific,noise cancelling wireless headphones under 50,32.74,2.611,2.2,2.3,3.8,2.3,2.5,4,2,3,2,4,2,3,1,5,3
+P24,Keyword,1,specific,noise cancelling wireless headphones under 50,59.07,3.954,4.7,3.9,3.7,3.4,4.0,2,5,3,3,3,2,4,3,2,4
+P24,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,35.05,3.258,4.1,3.4,2.5,2.4,3.9,4,2,3,2,4,2,3,1,5,3
+P24,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,39.64,3.95,4.2,3.7,4.0,4.4,3.4,2,5,3,3,3,2,4,3,2,4
+P24,AI,3,vague,something good for listening to music on commute,37.44,2.535,3.2,3.5,1.8,1.9,2.2,4,2,3,2,4,2,3,1,5,3
+P24,Keyword,3,vague,something good for listening to music on commute,61.09,3.136,3.1,2.6,3.7,3.2,3.0,2,5,3,3,3,2,4,3,2,4
+P24,AI,4,vague,comfortable accessories for working from home laptop,26.31,3.043,3.3,3.4,3.2,3.3,2.0,4,2,3,2,4,2,3,1,5,3
+P24,Keyword,4,vague,comfortable accessories for working from home laptop,41.81,3.076,2.9,3.2,2.6,3.4,3.3,2,5,3,3,3,2,4,3,2,4
+P24,AI,5,browse,popular laptops computers for university students,44.06,3.147,3.7,3.3,3.4,3.3,2.1,4,2,3,2,4,2,3,1,5,3
+P24,Keyword,5,browse,popular laptops computers for university students,69.11,2.105,2.3,1.1,1.9,2.7,2.5,2,5,3,3,3,2,4,3,2,4
+P24,AI,6,browse,best reviewed cameras for beginners photography,41.43,3.206,3.7,2.2,2.3,4.1,3.8,4,2,3,2,4,2,3,1,5,3
+P24,Keyword,6,browse,best reviewed cameras for beginners photography,53.06,3.462,3.1,3.5,3.3,3.8,3.7,2,5,3,3,3,2,4,3,2,4
+P25,AI,1,specific,noise cancelling wireless headphones under 50,37.42,2.759,2.8,2.7,3.7,2.5,2.2,4,1,3,1,4,2,4,2,5,2
+P25,Keyword,1,specific,noise cancelling wireless headphones under 50,45.09,3.798,3.4,4.0,3.9,4.2,3.5,4,2,1,3,2,3,3,5,3,3
+P25,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,44.34,3.227,4.0,3.8,2.6,2.1,3.6,4,1,3,1,4,2,4,2,5,2
+P25,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,57.79,3.887,4.0,4.1,3.4,3.7,4.2,4,2,1,3,2,3,3,5,3,3
+P25,AI,3,vague,something good for listening to music on commute,46.3,2.645,4.0,3.1,2.3,1.7,2.2,4,1,3,1,4,2,4,2,5,2
+P25,Keyword,3,vague,something good for listening to music on commute,72.57,3.008,2.4,2.9,3.3,3.2,3.3,4,2,1,3,2,3,3,5,3,3
+P25,AI,4,vague,comfortable accessories for working from home laptop,47.42,3.044,3.2,3.5,3.4,3.3,1.8,4,1,3,1,4,2,4,2,5,2
+P25,Keyword,4,vague,comfortable accessories for working from home laptop,38.06,2.959,3.1,3.2,2.8,2.9,2.8,4,2,1,3,2,3,3,5,3,3
+P25,AI,5,browse,popular laptops computers for university students,31.85,2.905,3.1,3.2,3.4,3.3,1.6,4,1,3,1,4,2,4,2,5,2
+P25,Keyword,5,browse,popular laptops computers for university students,76.36,2.496,2.4,1.4,3.1,2.9,2.7,4,2,1,3,2,3,3,5,3,3
+P25,AI,6,browse,best reviewed cameras for beginners photography,27.49,3.151,3.5,2.2,2.2,4.1,3.8,4,1,3,1,4,2,4,2,5,2
+P25,Keyword,6,browse,best reviewed cameras for beginners photography,69.6,3.359,3.3,3.3,3.6,3.5,3.2,4,2,1,3,2,3,3,5,3,3
+P26,AI,1,specific,noise cancelling wireless headphones under 50,34.84,2.737,2.6,2.4,3.7,2.6,2.5,4,2,5,1,4,2,4,2,5,3
+P26,Keyword,1,specific,noise cancelling wireless headphones under 50,49.21,3.94,4.5,3.5,3.5,4.2,4.0,4,4,3,2,3,3,3,3,3,3
+P26,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,32.48,3.173,3.6,3.8,2.7,2.1,3.7,4,2,5,1,4,2,4,2,5,3
+P26,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,49.51,3.95,4.1,3.6,3.9,4.4,3.8,4,4,3,2,3,3,3,3,3,3
+P26,AI,3,vague,something good for listening to music on commute,46.05,2.602,3.4,3.1,2.0,1.9,2.5,4,2,5,1,4,2,4,2,5,3
+P26,Keyword,3,vague,something good for listening to music on commute,41.64,3.282,3.3,3.1,3.2,3.4,3.5,4,4,3,2,3,3,3,3,3,3
+P26,AI,4,vague,comfortable accessories for working from home laptop,46.23,3.332,3.4,3.9,3.6,3.6,2.1,4,2,5,1,4,2,4,2,5,3
+P26,Keyword,4,vague,comfortable accessories for working from home laptop,51.0,3.157,2.8,3.3,3.2,3.2,3.3,4,4,3,2,3,3,3,3,3,3
+P26,AI,5,browse,popular laptops computers for university students,50.47,2.941,3.4,3.3,3.1,3.4,1.5,4,2,5,1,4,2,4,2,5,3
+P26,Keyword,5,browse,popular laptops computers for university students,67.67,2.222,2.6,1.3,2.1,2.5,2.6,4,4,3,2,3,3,3,3,3,3
+P26,AI,6,browse,best reviewed cameras for beginners photography,41.24,3.194,3.5,2.3,2.6,3.7,3.9,4,2,5,1,4,2,4,2,5,3
+P26,Keyword,6,browse,best reviewed cameras for beginners photography,85.22,3.257,3.5,3.6,3.1,2.8,3.3,4,4,3,2,3,3,3,3,3,3
+P27,AI,1,specific,noise cancelling wireless headphones under 50,34.92,2.818,2.7,2.6,4.1,2.4,2.3,5,3,4,1,3,1,4,3,5,2
+P27,Keyword,1,specific,noise cancelling wireless headphones under 50,58.94,3.862,3.9,3.7,3.5,3.9,4.3,2,2,3,4,3,2,4,4,2,2
+P27,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,21.8,3.269,4.2,3.6,2.9,2.1,3.5,5,3,4,1,3,1,4,3,5,2
+P27,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,47.48,3.802,3.9,3.8,3.6,4.2,3.5,2,2,3,4,3,2,4,4,2,2
+P27,AI,3,vague,something good for listening to music on commute,39.63,2.494,3.4,2.9,1.9,1.8,2.4,5,3,4,1,3,1,4,3,5,2
+P27,Keyword,3,vague,something good for listening to music on commute,48.83,3.188,3.3,2.5,3.9,3.8,2.5,2,2,3,4,3,2,4,4,2,2
+P27,AI,4,vague,comfortable accessories for working from home laptop,38.94,3.064,3.3,3.6,3.2,3.3,1.9,5,3,4,1,3,1,4,3,5,2
+P27,Keyword,4,vague,comfortable accessories for working from home laptop,68.64,2.995,3.4,2.8,3.3,2.8,2.6,2,2,3,4,3,2,4,4,2,2
+P27,AI,5,browse,popular laptops computers for university students,40.42,3.092,3.6,3.5,3.0,3.3,2.0,5,3,4,1,3,1,4,3,5,2
+P27,Keyword,5,browse,popular laptops computers for university students,68.46,2.405,2.2,1.6,2.2,3.2,2.9,2,2,3,4,3,2,4,4,2,2
+P27,AI,6,browse,best reviewed cameras for beginners photography,37.45,3.435,4.0,2.5,2.6,4.2,3.9,5,3,4,1,3,1,4,3,5,2
+P27,Keyword,6,browse,best reviewed cameras for beginners photography,52.42,3.453,2.9,3.3,3.8,3.7,3.6,2,2,3,4,3,2,4,4,2,2
+P28,AI,1,specific,noise cancelling wireless headphones under 50,24.2,2.635,2.3,2.7,3.7,1.9,2.5,3,1,4,2,5,3,4,2,4,2
+P28,Keyword,1,specific,noise cancelling wireless headphones under 50,51.4,3.972,4.0,4.0,4.1,4.2,3.6,2,3,3,3,3,3,1,4,2,2
+P28,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,26.63,3.218,3.8,3.8,2.6,2.2,3.6,3,1,4,2,5,3,4,2,4,2
+P28,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,39.6,3.979,4.4,4.1,3.7,4.0,3.7,2,3,3,3,3,3,1,4,2,2
+P28,AI,3,vague,something good for listening to music on commute,51.32,2.609,3.5,3.1,2.5,1.7,2.2,3,1,4,2,5,3,4,2,4,2
+P28,Keyword,3,vague,something good for listening to music on commute,77.58,3.159,3.2,3.0,3.2,2.9,3.4,2,3,3,3,3,3,1,4,2,2
+P28,AI,4,vague,comfortable accessories for working from home laptop,51.59,2.857,3.1,3.2,2.8,3.1,2.0,3,1,4,2,5,3,4,2,4,2
+P28,Keyword,4,vague,comfortable accessories for working from home laptop,60.61,3.097,3.3,3.1,2.9,2.9,3.3,2,3,3,3,3,3,1,4,2,2
+P28,AI,5,browse,popular laptops computers for university students,38.93,2.897,3.0,3.2,3.1,3.3,2.0,3,1,4,2,5,3,4,2,4,2
+P28,Keyword,5,browse,popular laptops computers for university students,61.25,2.387,2.5,1.9,2.2,3.2,2.2,2,3,3,3,3,3,1,4,2,2
+P28,AI,6,browse,best reviewed cameras for beginners photography,28.77,3.261,3.6,2.5,2.5,3.9,3.7,3,1,4,2,5,3,4,2,4,2
+P28,Keyword,6,browse,best reviewed cameras for beginners photography,58.22,3.475,4.2,3.2,3.7,2.9,3.3,2,3,3,3,3,3,1,4,2,2
+P29,AI,1,specific,noise cancelling wireless headphones under 50,28.59,2.577,2.3,2.6,3.4,2.2,2.4,5,1,4,1,4,1,4,2,4,1
+P29,Keyword,1,specific,noise cancelling wireless headphones under 50,44.84,3.747,3.8,3.5,3.8,4.0,3.7,2,1,4,2,3,4,2,2,3,4
+P29,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,34.23,3.251,3.9,4.0,2.3,2.3,3.8,5,1,4,1,4,1,4,2,4,1
+P29,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,46.1,3.802,3.3,4.1,3.9,4.1,3.5,2,1,4,2,3,4,2,2,3,4
+P29,AI,3,vague,something good for listening to music on commute,36.3,2.735,3.9,3.5,2.3,2.1,2.0,5,1,4,1,4,1,4,2,4,1
+P29,Keyword,3,vague,something good for listening to music on commute,60.91,3.318,3.0,3.1,4.0,3.7,2.7,2,1,4,2,3,4,2,2,3,4
+P29,AI,4,vague,comfortable accessories for working from home laptop,28.79,3.187,3.4,3.6,3.2,4.0,1.8,5,1,4,1,4,1,4,2,4,1
+P29,Keyword,4,vague,comfortable accessories for working from home laptop,57.77,3.156,3.1,3.7,2.8,3.0,3.2,2,1,4,2,3,4,2,2,3,4
+P29,AI,5,browse,popular laptops computers for university students,43.07,3.181,3.4,3.4,3.3,3.6,2.1,5,1,4,1,4,1,4,2,4,1
+P29,Keyword,5,browse,popular laptops computers for university students,76.75,2.343,2.6,1.5,2.6,2.6,2.4,2,1,4,2,3,4,2,2,3,4
+P29,AI,6,browse,best reviewed cameras for beginners photography,44.03,3.22,4.0,2.1,2.4,3.7,3.8,5,1,4,1,4,1,4,2,4,1
+P29,Keyword,6,browse,best reviewed cameras for beginners photography,21.63,3.33,3.6,3.3,2.9,3.1,3.7,2,1,4,2,3,4,2,2,3,4
+P30,AI,1,specific,noise cancelling wireless headphones under 50,38.87,2.723,2.2,2.8,4.1,2.1,2.3,5,2,5,2,3,2,5,3,4,2
+P30,Keyword,1,specific,noise cancelling wireless headphones under 50,52.07,3.941,4.4,3.8,3.4,3.8,4.3,3,2,4,2,2,2,2,3,4,3
+P30,AI,2,specific,portable waterproof bluetooth speaker 10 hour battery,24.86,3.247,3.7,3.9,2.7,2.1,3.8,5,2,5,2,3,2,5,3,4,2
+P30,Keyword,2,specific,portable waterproof bluetooth speaker 10 hour battery,62.29,3.89,4.3,3.9,3.3,4.1,3.9,3,2,4,2,2,2,2,3,4,3
+P30,AI,3,vague,something good for listening to music on commute,36.94,2.654,3.6,3.3,2.3,2.1,2.0,5,2,5,2,3,2,5,3,4,2
+P30,Keyword,3,vague,something good for listening to music on commute,70.22,3.31,3.0,3.1,3.4,3.3,3.8,3,2,4,2,2,2,2,3,4,3
+P30,AI,4,vague,comfortable accessories for working from home laptop,48.11,3.103,3.1,3.6,3.4,3.4,2.1,5,2,5,2,3,2,5,3,4,2
+P30,Keyword,4,vague,comfortable accessories for working from home laptop,62.08,3.115,3.2,3.0,3.4,3.1,2.9,3,2,4,2,2,2,2,3,4,3
+P30,AI,5,browse,popular laptops computers for university students,26.08,2.95,3.4,3.3,3.2,3.2,1.6,5,2,5,2,3,2,5,3,4,2
+P30,Keyword,5,browse,popular laptops computers for university students,82.04,2.047,2.3,1.4,2.4,2.5,1.6,3,2,4,2,2,2,2,3,4,3
+P30,AI,6,browse,best reviewed cameras for beginners photography,30.35,3.454,3.9,2.5,2.9,3.6,4.3,5,2,5,2,3,2,5,3,4,2
+P30,Keyword,6,browse,best reviewed cameras for beginners photography,69.99,3.371,3.5,2.9,3.5,3.5,3.4,3,2,4,2,2,2,2,3,4,3
