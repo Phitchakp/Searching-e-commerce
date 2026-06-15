@@ -1,0 +1,4 @@
+Measure,Test,Statistic,df,p,95CI_lower,95CI_upper,Cohens_d,Effect,Significant
+Search accuracy,Paired t-test,-21.2976,29,0.0,-0.3315,-0.2734,3.8884,Large,True
+Search efficiency,Paired t-test,-14.1665,29,0.0,-21.592,-16.1441,2.5864,Large,True
+User satisfaction (SUS),Mann-Whitney U,899.0,—,0.0,—,—,0.9978,Large,True

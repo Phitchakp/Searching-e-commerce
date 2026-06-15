@@ -33,14 +33,13 @@
 import numpy as np
 import pandas as pd
 from scipy import stats
-from scipy.stats import spearmanr, pearsonr, kruskal, f_oneway
+from scipy.stats import spearmanr, pearsonr, kruskal
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import LabelEncoder
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-import matplotlib.gridspec as gridspec
-import warnings, os, textwrap
+import warnings, os
 
 warnings.filterwarnings('ignore')
 
@@ -121,13 +120,11 @@ def save_fig(name):
 # ══════════════════════════════════════════════════════════════════════════
 sep("A.  DATA LOADING & OVERVIEW")
 
-DATA_DIR = "/thesis_results_real"
+DATA_DIR = "."   # CSVs are written to the project root by Build Experimaent.py
 
-exp   = pd.read_csv(f"{DATA_DIR}/experiment_results.csv")
-prod  = pd.read_csv(f"{DATA_DIR}/product_catalogue.csv")
-cats  = pd.read_csv(f"{DATA_DIR}/category_analysis.csv")
-desc  = pd.read_csv(f"{DATA_DIR}/descriptive_statistics.csv")
-infr  = pd.read_csv(f"{DATA_DIR}/inferential_statistics.csv")
+exp  = pd.read_csv(f"{DATA_DIR}/experiment_results.csv")
+prod = pd.read_csv(f"{DATA_DIR}/product_catalogue.csv")
+cats = pd.read_csv(f"{DATA_DIR}/category_analysis.csv")
 
 # SUS score (Brooke 1996)
 def sus_score(row):
@@ -172,7 +169,6 @@ print(f"\n  ✓ Participant arrays built (N={N})")
 agg.to_csv(f"{OUT}/A_participant_aggregated.csv", index=False)
 
 
-'''
 # ══════════════════════════════════════════════════════════════════════════
 # B. DESCRIPTIVE STATISTICS
 # ══════════════════════════════════════════════════════════════════════════
@@ -593,14 +589,7 @@ print(f"\n  ANOVA — mean rating across categories: F={f_cat:.4f}  {p_fmt(p_cat
 # ══════════════════════════════════════════════════════════════════════════
 sep("M.  REGRESSION ANALYSIS")
 
-# Build regression dataset: merge experiment with product catalogue
-exp_with_prod = exp.merge(
-    prod[["item_id","mean_rating","n_reviews","lgb_score"]] if "lgb_score" in prod.columns
-    else prod[["item_id","mean_rating","n_reviews"]],
-    how="left", left_on="task_id", right_on="item_id"
-)
-
-# Features: condition_enc, task_type_enc, task_id, mean_product_rating
+# Features: condition_enc, task_type_enc, task_id
 le_cond = LabelEncoder(); le_type = LabelEncoder()
 exp["condition_enc"] = le_cond.fit_transform(exp["condition"])  # AI=0, Keyword=1
 exp["task_type_enc"] = le_type.fit_transform(exp["task_type"])  # browse=0, specific=1, vague=2
@@ -682,7 +671,8 @@ for ax, data, title, ylabel, cols in [
                     flierprops={"marker":"o","markersize":4,"alpha":0.5})
     for patch, col in zip(bp["boxes"], cols):
         patch.set_facecolor(col); patch.set_alpha(0.85)
-    ax.set_xticklabels(["AI","Keyword"]); ax.set_ylabel(ylabel); ax.set_title(title)
+    ax.set_xticks([1, 2]); ax.set_xticklabels(["AI","Keyword"])
+    ax.set_ylabel(ylabel); ax.set_title(title)
 plt.tight_layout(); save_fig("fig02_boxplots")
 
 # ── Fig 3: Per-task performance ────────────────────────────────────────────
@@ -748,11 +738,12 @@ plt.tight_layout(); save_fig("fig05_sus_items")
 # ── Fig 6: Result position analysis ───────────────────────────────────────
 fig, ax = plt.subplots(figsize=(9, 5))
 x = np.arange(5); w = 0.35
+n_per_pos = len(exp[exp["condition"] == "AI"])  # rows per condition
 b1 = ax.bar(x-w/2, pos_df["AI_mean"], w, color=C["ai"], alpha=0.88,
-            yerr=pos_df["AI_SD"]/np.sqrt(180), capsize=4,
+            yerr=pos_df["AI_SD"]/np.sqrt(n_per_pos), capsize=4,
             error_kw={"elinewidth":1.2,"ecolor":C["dark"]}, label="AI")
 b2 = ax.bar(x+w/2, pos_df["KW_mean"], w, color=C["kw"], alpha=0.88,
-            yerr=pos_df["KW_SD"]/np.sqrt(180), capsize=4,
+            yerr=pos_df["KW_SD"]/np.sqrt(n_per_pos), capsize=4,
             error_kw={"elinewidth":1.2,"ecolor":C["dark"]}, label="Keyword")
 ax.set_xticks(x); ax.set_xticklabels([f"Result #{i}" for i in range(1,6)])
 ax.set_ylabel("Mean relevance rating (1–5)")
@@ -1005,7 +996,7 @@ H₁: AI-based product search significantly improves search accuracy
 """
 
 print(chapter4)
-with open(f"{OUT}/O_chapter4_text.txt", "w") as f:
+with open(f"{OUT}/O_chapter4_text.txt", "w", encoding="utf-8") as f:
     f.write(chapter4)
 
 # ══════════════════════════════════════════════════════════════════════════
@@ -1018,4 +1009,3 @@ for o in outputs:
     size = os.path.getsize(f"{OUT}/{o}")
     print(f"  {o:50s}  {size:>8,} bytes")
 print(f"\n  Total: {len(outputs)} files")
-'''

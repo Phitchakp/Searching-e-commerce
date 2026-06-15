@@ -1,0 +1,113 @@
+
+Chapter 4: Results
+══════════════════════════════════════════════════════════════════
+
+4.1 Overview
+─────────────────────────────────────────────────────────────────
+This chapter presents the results of the controlled user study (N=30)
+comparing the AI-based product search prototype with the traditional
+keyword-based system across three dependent variables: search accuracy
+(mean relevance ratings), search efficiency (task completion time), and
+user satisfaction (System Usability Scale scores). Quantitative data are
+reported in Sections 4.2–4.4, followed by per-task and sub-group analyses
+in Sections 4.5–4.6. The chapter concludes with regression findings (4.7)
+and a summary of the hypothesis decisions (4.8).
+
+Descriptive statistics for all outcome measures are presented in Table 4.1.
+
+  Table 4.1: Descriptive statistics by condition
+  ┌───────────────────────┬────────────┬────────────┬────────────┬────────────┐
+  │ Measure               │ AI M (SD)  │ AI Mdn     │ KW M (SD)  │ KW Mdn     │
+  ├───────────────────────┼────────────┼────────────┼────────────┼────────────┤
+  │ Relevance rating (1–5)│ 2.990(0.032) │ 2.988     │ 3.293(0.062) │ 3.289     │
+  │ Task time (s)         │ 37.43(3.24)  │ 36.69    │ 56.30(6.21) │ 57.21    │
+  │ SUS score (0–100)     │ 78.17(4.69)   │ 77.50    │ 49.08(8.67)  │ 50.00    │
+  └───────────────────────┴────────────┴────────────┴────────────┴────────────┘
+
+
+4.2 Normality Assessment
+─────────────────────────────────────────────────────────────────
+Prior to conducting the primary inferential tests, the normality of
+difference scores for each dependent variable was assessed using the
+Shapiro-Wilk test. For search accuracy (relevance ratings), the test
+yielded W = 0.9694,
+p = 0.5234,
+indicating that the normality assumption was satisfied.
+For task completion time, the Shapiro-Wilk test returned
+W = 0.958,
+p = 0.2750,
+indicating that normality was satisfied.
+Paired-samples t-tests were therefore applied for both variables.
+
+
+4.3 Search Accuracy
+─────────────────────────────────────────────────────────────────
+A paired-samples t-test revealed a
+statistically significant difference in mean relevance
+ratings between the AI-based system (M = 2.990, SD = 0.032)
+and the keyword-based system (M = 3.293, SD = 0.062),
+t(29) = -21.2976, p < .001,
+95% CI [-0.3315, -0.2734], d = 3.8884 (Large effect).
+The mean difference was -0.3024 in favour of the
+keyword-based system.
+The null hypothesis H₀ is rejected; H₁ is supported for this dimension.
+
+
+4.4 Search Efficiency
+─────────────────────────────────────────────────────────────────
+A paired-samples t-test revealed a
+significant difference in task completion time.
+Participants completed tasks faster
+using the AI-based system (M = 37.43s, SD = 3.24)
+compared to the keyword system (M = 56.30s, SD = 6.21),
+t(29) = -14.1665, p < .001,
+95% CI [-21.59, -16.14], d = 2.5864 (Large effect).
+The AI system reduced task completion time by 18.87s (33.5%).
+H₁ is supported for this dimension.
+
+
+4.5 User Satisfaction
+─────────────────────────────────────────────────────────────────
+A Mann-Whitney U test on SUS scores revealed that the AI-based system
+(Mdn = 77.50, M = 78.17, SD = 4.69)
+received significantly higher
+usability ratings than the keyword system
+(Mdn = 50.00, M = 49.08, SD = 8.67),
+U = 899.0, p < .001, r = -0.9978 (Large effect).
+The AI system's SUS score of 77.5 falls in the
+'Good (B)' range of the adjective scale,
+while the keyword system's score of 50.0 falls in the
+'Poor (D)' range (Brooke 1996).
+H₁ is supported for this dimension.
+
+
+4.6 Sub-group Analysis by Query Type
+─────────────────────────────────────────────────────────────────
+Sub-group analysis by query type reveals differential patterns of AI
+advantage across specific, vague, and browse query conditions.
+  Specific queries: AI M=2.963, KW M=3.893 (Δ=-0.930, p < .001). Time saved: 17.3s.
+  Vague queries: AI M=2.853, KW M=3.126 (Δ=-0.273, p < .001). Time saved: 18.9s.
+  Browse queries: AI M=3.155, KW M=2.859 (Δ=+0.296, p < .001). Time saved: 20.4s.
+
+
+4.7 Regression Analysis
+─────────────────────────────────────────────────────────────────
+A multiple linear regression was conducted to identify predictors of user
+relevance ratings. The model including condition (AI vs keyword), query type,
+and task ID explained 18.2% of the variance in relevance ratings
+(R² = 0.1822, adjusted R² = 0.1753,
+F(3,356) = 26.4425, p < .001).
+
+
+4.8 Hypothesis Decision
+─────────────────────────────────────────────────────────────────
+H₁: AI-based product search significantly improves search accuracy
+    and user satisfaction compared to traditional keyword-based systems.
+
+  Search accuracy (relevance):   ✓ SUPPORTED
+  Search efficiency (task time): ✓ SUPPORTED
+  User satisfaction (SUS):       ✓ SUPPORTED
+
+  Overall: H₁ is FULLY SUPPORTED — H₀ rejected across all three measures.
+
+══════════════════════════════════════════════════════════════════

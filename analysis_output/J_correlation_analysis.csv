@@ -1,0 +1,9 @@
+Pair,Method,r,p,Significant
+AI: relevance vs time,Pearson,0.2085,0.2688,False
+AI: relevance vs SUS,Pearson,0.1164,0.5401,False
+AI: time vs SUS,Pearson,-0.1719,0.3637,False
+KW: relevance vs time,Pearson,-0.0779,0.6826,False
+KW: relevance vs SUS,Pearson,0.009,0.9622,False
+KW: time vs SUS,Pearson,0.1279,0.5007,False
+Diff rel vs Diff time,Spearman,-0.0274,0.8859,False
+Diff SUS vs Diff rel,Spearman,-0.0653,0.7316,False

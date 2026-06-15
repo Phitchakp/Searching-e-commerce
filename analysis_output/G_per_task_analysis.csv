@@ -1,0 +1,7 @@
+Task,Type,Query,AI_rel_mean,KW_rel_mean,Rel_diff,Rel_p,AI_time_mean,KW_time_mean,Time_saved,Time_p
+1,specific,noise cancelling wireless headphones under 50,2.705,3.8751,-1.1701,0.0,33.66,51.71,18.05,0.0
+2,specific,portable waterproof bluetooth speaker 10 hour batt,3.2217,3.9113,-0.6895,0.0,33.93,50.48,16.55,0.0
+3,vague,something good for listening to music on commute,2.6272,3.1955,-0.5683,0.0,40.02,58.5,18.48,0.0
+4,vague,comfortable accessories for working from home lapt,3.0785,3.0571,0.0214,0.4724,38.06,57.3,19.25,0.0
+5,browse,popular laptops computers for university students,3.0492,2.2813,0.7679,0.0,40.33,61.46,21.13,0.0
+6,browse,best reviewed cameras for beginners photography,3.2602,3.4363,-0.176,0.0,38.57,58.33,19.76,0.0
